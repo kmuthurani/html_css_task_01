@@ -5,7 +5,7 @@
 
 body {
   overflow-x: hidden;
-  /*overflow-y: auto;*/
+  overflow-y: auto;
   width: 100%;
   height: 100%;
 }
@@ -45,6 +45,7 @@ body {
   background-image: url("./cat.jpg");
   height: 250px;
   padding: 30px;
+  margin: bottom;
 }
 
 .banner {
@@ -72,4 +73,99 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.button a {
+  color: white;
+}
+
+.click {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.click a {
+  color: white;
+}
+
+.click button {
+  border: none;
+  padding: 7px 12px;
+  background-color: orange;
+  border-radius: 5px;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.footer .lap .lap_img img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer .lap .lap_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.footer .contact .con_img img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer .contact .con_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.footer .sales .sal_img img {
+  height: 50px;
+  width: 50px;
+}
+
+.footer .sales .sal_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.footer1 .footer_img {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.footer1 i {
+  font-size: 80px;
+  color: white;
+}
+
+.footer1 .img_border {
+  background-color: blue;
+  padding: 20px 50px;
+  margin-bottom: 3px;
+}
+
+.footer1 .footer_img .text {
+  text-align: center;
+}
+
+.footer1 .footer_img .text .color_text {
+  color: blue;
 }
